@@ -28,7 +28,7 @@ Plot steps by date by histogram.
 ```{r}
 ggplot(data=stepsByDate, aes(x=stepsByDate$day, y=stepsByDate$totalSteps))+geom_bar(colour="grey", stat="identity")+xlab("date")+ylab("total steps")+ggtitle("Steps by Date")
 ```
-![fig1](fig/totalstepbydate.png)
+![fig1](fig/totalstepsbydate.png)
 
 ## What is the avarage daily activity pattern
 Aggregate steps by each interval time and then calculate average
